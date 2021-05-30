@@ -1,0 +1,173 @@
+.customerimg img{
+    width:100%;
+    
+}
+
+.flex-container {
+    /* We first create a flex layout context */
+    display: flex;
+    /* Then we define the flow direction 
+       and if we allow the items to wrap 
+     * Remember this is the same as:
+     * flex-direction: row;
+     * flex-wrap: wrap;
+     */
+    flex-flow: row wrap;
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .flex-item {
+    padding: 5px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
+
+  
+  .appointment h3{
+    font-size:30px;
+    padding:5%;
+    padding-bottom:0px;
+  }
+
+  .btn {
+    font-family: 'Montserrat',sans-serif;
+    font-weight:bold;
+    border: none;
+    background-color: white;
+    color:#0047AB;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+  }
+.certified {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  max-width:80%;
+  
+  
+}
+.certified h3{
+  text-align: left;
+  font-size: 30px;
+  font-family: 'Montserrat',sans-serif;
+  padding:5px 0px 5px 0px;
+  padding-top: 5%;
+  font-weight: bold;
+}
+.certified p{
+  padding-right: 5%;
+  font-size: 18px;
+  text-align: left;
+  font-weight: 400;
+}
+@media(max-width:750px){
+  .certified-mob-view{
+    text-align: center;
+    
+  }
+  .certified-mob-view h3,p{
+    text-align: justify;
+  }
+  .certified-mob-view h3{
+    font-size: 20px;
+  }
+  .certified-mob-view p{
+    font-size: 14px;
+  }
+}
+
+.details{
+  margin:20px 0 ;
+  background-color: #FFF1E1;
+  padding: 30px 20px;
+}
+.details h2{
+  font-size: 20px;
+}
+.details p{
+  font-size: 10px;
+}
+.details a{
+  text-decoration: none;
+  color:#FFF;
+  display: inline-block;
+  font-size: 14px;
+  border :1px solid;
+  padding :6px 12px;
+}
+
+.review-box{
+  font-family: 'Montserrat',sans-serif;
+}
+
+.mycard{
+  width:300px;
+  height:200px;
+}
+
+
+.mycard h4{
+  font-size: 18px;
+  font-weight: bold;
+ 
+}
+.mycard p{
+  font-size: 12px;
+  
+}
+
+.ratings {
+ 
+  padding-left:0px;
+  padding-top: 40px;
+  
+}
+
+.product-rating {
+  font-size: 42px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.stars i {
+  font-size: 14px;
+  color: #FFC107;
+  margin: 5px;
+  margin-left: 0px;
+}
+
+.rating-text {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.review-link{
+  color:#0047AB;
+  font-size: 18px;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+  padding:5%;
+  
+  
+}
+.fit{
+  padding:5% 0px 5% 15%;
+}
+@media (max-width:768px) {
+  .fit{
+    padding:0px;
+  }
+  
+}

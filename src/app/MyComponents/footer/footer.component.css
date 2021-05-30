@@ -1,0 +1,120 @@
+footer{
+    overflow-x: hidden;
+    font-family: 'Montserrat',sans-serif;
+    margin:0px;
+}
+.myfooter h3{
+    color:#FF8400;
+    font-size:16px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-align: left;
+    
+    
+}
+.myfooter h2{
+    
+    font-size:14px;
+    font-weight: 500;
+    margin-bottom: 0px;
+
+}
+.footerimage img{
+    
+    margin: 0 auto;
+    padding:15px;
+    width:120px;
+    height:120px;
+}
+
+.myfooter ul{
+    list-style-type:circle;
+    color:#FF8400;
+    padding-left: 5%;
+}
+.myfooter li>a{
+    color:#333;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+
+
+.myfooter span{
+    
+    font-size:20px;
+    font-weight:bolder;
+    font-family: 'Montserrat',sans-serif;
+    color:#FF8400;
+    
+}
+.headquaters p{
+    font-weight: 400;
+    font-size: 20px;
+    color:#333;
+}
+.headquaters img{
+    padding-top: 10%;
+}
+
+.email{
+    margin-top: 2%;
+    width:100%;
+   
+}
+.submit{
+    display: block;
+    margin-top:10px;
+    border:0px;
+    background-color: #0047AB;
+    color:white;
+}
+
+
+
+@media (max-width:750px){
+    .myfooter h2{
+    
+        font-size:12px;
+       
+      
+    }
+    .services, .company li>a{
+        font-size:14px;
+      } 
+    
+      .services , .company {
+        width:50%;
+    }
+   .form-group{
+       display: block;
+   }
+   .submit{
+       margin-top: 20px;
+       float:right;
+       padding: 10px 20px 10px 20px;
+   }
+    
+    .email{
+        width:100%;
+        padding:5px;
+        border:thin solid black;
+         
+    }
+
+    
+    .copyright p{
+        text-align:center; 
+        font-size: 13px;
+    }
+
+    .footerimage{
+        margin-top:20%;
+        text-align: center;
+    }
+    .follow-links{
+        text-align: center;
+    }
+
+   
+}

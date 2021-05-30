@@ -1,0 +1,31 @@
+    .scroll-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.849);
+    background-color: #fff;
+    filter: drop-shadow(0px 6px 0.1rem rgba(43, 43, 43, 0.226));
+    width: 50px;
+    height: 50px;
+   }
+   .scroll-to-top i{
+       margin-top: 60%;
+       margin-left: 30%;
+       color:#0047AB;
+
+   }
+   @media (max-width:750px) {
+.scroll-to-top{
+    bottom:25px;
+    right: 25px;
+}
+       
+   }
+  
+.show-scrollTop {
+    opacity: 1;
+    transition: all .2s ease-in-out;
+   }

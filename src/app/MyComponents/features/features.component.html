@@ -1,0 +1,172 @@
+<div class="container" style="max-width:100%;margin-bottom: 20px;">
+    <div class="row fit" style="margin:0px;  background-color:#FFF; ">
+        <div class="col-lg-5 fit" style="margin-top:5%; ">
+            <div class="content ">
+                <div class="heading-title">
+                    <h3>Your peace of mind is <b>our number one priority</b></h3>
+                    <div class="underline"><span>__________</span></div>
+                    <p>UniversaCare offers a range of services for in-home care. We are your partners in care, and work
+                        with you to come up with a plan of action. </p>
+                </div>
+            </div>
+        </div>
+        <mdb-carousel [animation]="'slide'" [ngSwitch]="carouselDisplayMode" [isControls]="false"
+            class="carousel-multi-item multi-animation" [type]="'carousel-multi-item'">
+            <ng-container *ngSwitchCase="'single'" data-interval="false">
+                
+                <mdb-carousel-item *ngFor="let card of cards" style="padding: 0px 45px 0px 45px;">
+                    <mdb-card class="my-2 mycard" data-interval="false">
+                        
+                        <div class="feature right-border">
+                            <mdb-card-body>
+                                <div class="myimg"> 
+                                <mdb-card-img [src]="card.img" alt="Card image cap"></mdb-card-img>
+                            </div>
+                                <mdb-card-title>
+                                    <h4> {{ card.title }}</h4>
+                                </mdb-card-title>
+                                <p>{{ card.description }}</p>
+
+                                <a class="circle" style="float: right;">
+                                    <img src="assets/chevron-right.svg">
+                                </a>
+                            </mdb-card-body>
+
+                        </div>
+
+                    </mdb-card>
+                </mdb-carousel-item>
+            </ng-container>
+
+
+        </mdb-carousel>
+
+        <div class=" col-lg-2 col-md-6 right-border hideinmobile ">
+            <div class="feature">
+                <img src="assets/feature1.svg">
+                <h4>
+                    Hourly Home Care
+                </h4>
+                <p>
+                    4x higher coverage limit than traditional policies for computers and home office equipment.
+                </p>
+
+                <a class="circle" style="float: right;">
+                    <img src="assets/chevron-right.svg">
+                </a>
+
+            </div>
+        </div>
+        <div class=" col-lg-2 col-md-6 right-border hideinmobile ">
+            <div class="feature">
+                <img src="assets/feature2.svg">
+                <h4>
+                    Personal Care
+                </h4>
+                <p>
+                    4x higher coverage limit than traditional policies for computers and home office equipment.
+                </p>
+
+                <a class="circle" style="float: right;">
+                    <img src="assets/chevron-right.svg">
+                </a>
+
+            </div>
+        </div>
+        <div class=" col-lg-2 col-md-6 hideinmobile " style="margin-top:5%;">
+            <div class="feature">
+                <img src="assets/feature3.svg">
+                <h4>
+                    Private Nursing
+                </h4>
+                <p>
+                    4x higher coverage limit than traditional policies for computers and home office equipment.
+                </p>
+
+                <a class="circle" style="float: right;">
+                    <img src="assets/chevron-right.svg">
+                </a>
+
+            </div>
+        </div>
+        <div class=" col-lg-2 col-md-6 right-border hideinmobile ">
+            <div class="feature">
+                <img src="assets/feature4.svg">
+                <h4>
+                    Respite Care
+                </h4>
+                <p>
+                    4x higher coverage limit than traditional policies for computers and home office equipment.
+                </p>
+
+                <a class="circle" style="float: right;">
+                    <img src="assets/chevron-right.svg">
+                </a>
+
+            </div>
+        </div>
+        <div class=" col-lg-2 col-md-6 right-border hideinmobile ">
+            <div class="feature">
+                <img src="assets/feature5.svg">
+                <h4>
+                    Life-in Aid
+                </h4>
+                <p>
+                    4x higher coverage limit than traditional policies for computers and home office equipment.
+                </p>
+
+                <a class="circle" style="float: right;">
+                    <img src="assets/chevron-right.svg">
+                </a>
+
+            </div>
+        </div>
+        <div class=" col-lg-2 col-md-6 right-border hideinmobile ">
+            <div class="feature">
+                <img src="assets/feature6.svg">
+                <h4>
+                    Memory Care
+                </h4>
+                <p>
+                    4x higher coverage limit than traditional policies for computers and home office equipment.
+                </p>
+
+                <a class="circle" style="float: right;">
+                    <img src="assets/chevron-right.svg">
+                </a>
+
+            </div>
+        </div>
+        <div class=" col-lg-2 col-md-6 right-border hideinmobile ">
+            <div class="feature">
+                <img src="assets/feature6.svg">
+                <h4>
+                    Memory Care
+                </h4>
+                <p>
+                    4x higher coverage limit than traditional policies for computers and home office equipment.
+                </p>
+
+                <a class="circle" style="float: right;">
+                    <img src="assets/chevron-right.svg">
+                </a>
+
+            </div>
+        </div>
+
+
+        <div class="col-lg-3" style="margin-top:5%;">
+            <div class="content ">
+                <div class="contact-title">
+                    <img src="assets/feature-phone.svg">
+                    <h3>Do you need Support?</h3>
+                    <p>We glad to help! </p>
+
+                    <a href="" class="btn smoth-scroll" data-animation="fadeInLeft" data-delay=".9s" tabindex="0"
+                        style="animation-delay: 0.9s;">Contact Us</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
